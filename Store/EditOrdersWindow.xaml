@@ -1,0 +1,19 @@
+﻿<Window x:Class="Store.EditOrdersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Store"
+        mc:Ignorable="d"
+        Title="EditOrdersWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="btnCreateOrderForCustomer" Content="Create order for customer" HorizontalAlignment="Left" Margin="0,187,0,0" VerticalAlignment="Top" Click="btnCreateOrderForCustomer_Click"/>
+        <TextBox Name="txtCustIdForOrder" HorizontalAlignment="Left" Margin="0,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtProductAmountForOrder" HorizontalAlignment="Left" Margin="0,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Amount of products in&#xD;&#xA; order" HorizontalAlignment="Left" Margin="0,102,0,0" VerticalAlignment="Top"/>
+        <Label Content="Customer Id" HorizontalAlignment="Left" Margin="0,6,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TxtOrderIdToDelete" HorizontalAlignment="Left" Margin="333,138,0,0" TextWrapping="Wrap" Text="order id to del" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btnDeleteOrderByID" Content="del order" HorizontalAlignment="Left" Margin="363,178,0,0" VerticalAlignment="Top" Click="btnDeleteOrderByID_Click"/>
+
+    </Grid>
+</Window>
